@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="mailto:vcdas123@gmail.com" method="post" enctype="text/plain" target="_blank">
+            <!-- label for and input name must be same to submit the form to mail with these values. submit button should also be in form element otherwise it will not submit the form in the desire location. -->
+            <h2>Job Application</h2>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" placeholder="Your Name..">
+            <br>
+            <label for="middlename">Middle Name</label>
+            <input type="text" name="middlename" placeholder="Your Middle Name..">
+            <br>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" placeholder="Your Last Name..">
+            <br>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="unitedstates">United States</option>
+                <option value="russai">Russai</option>
+                <option value="egypt">Egypt</option>
+                <option value="india" selected>India</option>
+                <option value="bangladesh">Bangladesh</option>
+            </select>
+            <label for="age">Age</label>
+
+            <input type="date" name="age">
+            <label class="unique" for="">Gender:</label>
+            <label for="gender">Male</label>
+            <input class="sex" type="radio" name="gender" value="male">
+            <label class="female" for="gender">Female</label>
+            <input class="sex" type="radio" name="gender" value="female">
+ <br>
+            <label  class="unique" for="interest">Job Location:</label>
+            <label for="India">India</label>
+            <input class="sex" type="checkbox" value="preferred" name="India">
+            <label class="female"for="US">US</label>
+            <input class="sex" type="checkbox" value="preferred" name="US">
+            <input class="submit" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
