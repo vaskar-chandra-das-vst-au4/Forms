@@ -29,17 +29,14 @@ select {
 a {
   text-decoration: none;
 }
-.sex {
+
+.sex1 {
   display: inline-block;
-  width: 10%;
+  width: 30px;
   margin: 0;
   padding: 0;
 }
 
-.unique{ display: inline-block;
-width: 10%;}
+
 .unique1{display: inline-block;
 width: 20%;}
-.female{ display: inline-block;
-width: 8%;
-height: auto;}
